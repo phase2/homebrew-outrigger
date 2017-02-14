@@ -13,7 +13,7 @@ Docker dependencies.
 
 ## To install rig
 
-  `brew install phase2/rig`
+  `brew install phase2/outrigger/rig`
 
 This will get you the `rig` binary and includes dependencies on Docker, Docker Compose,
 and Docker Machine.
@@ -24,7 +24,7 @@ If a new version of `rig` is released you need to do the following to upgrade.
 
   ```
   brew update
-  brew upgrade phase2/rig
+  brew upgrade phase2/outrigger/rig
   ```
 
 ## Troubleshooting
