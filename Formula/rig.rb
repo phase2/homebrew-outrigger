@@ -3,7 +3,7 @@ class Rig < Formula
   homepage "https://outrigger.sh"
   url "https://s3.amazonaws.com/phase2.outrigger/rig-1.1.0.tar.gz"
   version "1.1.0"
-  sha256 "33b3408d8fbed1a91c5a2b655c66d87e19eb4b9a94ee82c570492053da1c0c3a"
+  sha256 "d55f27ef27aeda8ec966744121394bd5e61faad7892b717a2a98cfca5e7d6b10"
 
   depends_on "docker"
   depends_on "docker-machine"
