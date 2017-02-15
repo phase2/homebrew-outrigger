@@ -3,7 +3,7 @@ class Rig < Formula
   homepage "https://outrigger.sh"
   url "https://s3.amazonaws.com/phase2.outrigger/rig-1.1.0.tar.gz"
   version "1.1.0"
-  sha256 "dec46f7c10ef6c4cd23d305cc0eb1d997148e69641e96621e5a6595920fb0254"
+  sha256 "e122578a5e3cf9460afdfcbd774cb30c890a7bc6d018e9de34a8b622577801eb"
 
   depends_on "docker"
   depends_on "docker-machine"
@@ -15,8 +15,8 @@ class Rig < Formula
     bin.install "docker-machine-watch-rsync.sh"
     bin.install "rig_completer"
 
-    #bash_completion.install "rig_completer" => "rig"
-    #zsh_completion.install "zsh_autocomplete" => "_rig"
+    bash_completion.install "bash_autocomplete" => "rig"
+    zsh_completion.install "zsh_autocomplete" => "_rig"
   end
 
   test do
