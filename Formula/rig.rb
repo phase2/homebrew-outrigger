@@ -15,8 +15,8 @@ class Rig < Formula
     bin.install "docker-machine-watch-rsync.sh"
     bin.install "rig_completer"
 
-    bash_completion.install "rig_completer" => "rig"
-    zsh_completion.install "zsh_autocomplete" => "_rig"
+    #bash_completion.install "rig_completer" => "rig"
+    #zsh_completion.install "zsh_autocomplete" => "_rig"
   end
 
   test do
