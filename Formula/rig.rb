@@ -1,14 +1,16 @@
 class Rig < Formula
   desc "Containerized platform environment for projects. See https://outrigger.sh for documentation. "
   homepage "https://outrigger.sh"
-  url "https://s3.amazonaws.com/phase2.outrigger/rig-1.2.3.tar.gz"
-  version "1.2.3"
-  sha256 "32773b8f5173c77e19e65f087af9fc331ebfe570a51c652928dbb1dbda72b6e1"
+  url "https://s3.amazonaws.com/phase2.outrigger/rig-1.3.0.tar.gz"
+  version "1.3.0"
+  sha256 "6c1d55533c7e390adedc0dfdf107a770cfe4aae85a7cbb387978b6fd9b91a6dc"
 
   depends_on "docker"
   depends_on "docker-machine"
   depends_on "docker-compose"
   depends_on "docker-machine-nfs"
+  depends_on "unison"
+  depends_on "eugenmayer/dockersync/unox"
 
   def install
     bin.install "rig"
