@@ -1,9 +1,9 @@
 class Rig < Formula
   desc "Containerized platform environment for projects. See https://outrigger.sh for documentation. "
   homepage "https://outrigger.sh"
-  url "https://s3.amazonaws.com/phase2.outrigger/rig-1.3.0.tar.gz"
-  version "1.3.0"
-  sha256 "6c1d55533c7e390adedc0dfdf107a770cfe4aae85a7cbb387978b6fd9b91a6dc"
+  url "https://s3.amazonaws.com/phase2.outrigger/rig-1.3.1.tar.gz"
+  version "1.3.1"
+  sha256 "febd19e0806546a72a16664f41fbeccaf869fe89b426e579b7bcbd859f289698"
 
   depends_on "docker"
   depends_on "docker-machine"
