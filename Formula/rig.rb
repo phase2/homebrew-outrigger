@@ -19,7 +19,7 @@ class Rig < Formula
   
   def install
     bin.install "rig"
-    bin.install "docker-machine-watch-rsync.sh"
+    bin.install "docker-machine-watch-rsync.sh" if not build.devel?
 
     #bash_completion.install "bash_autocomplete" => "rig"
     #zsh_completion.install "zsh_autocomplete" => "_rig"
