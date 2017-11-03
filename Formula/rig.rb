@@ -6,8 +6,8 @@ class Rig < Formula
   sha256 "82dd773501335b20d462092654cf5e612d7df4aa16e81657fd0da7408d6b8225"
 
   devel do
-    url "https://s3.amazonaws.com/phase2.outrigger/rig-2.0.0-rc1-macOS-amd64.tar.gz"
-    sha256 "bf8bbb9b71d97f806507500e2f639a1ee2266fbcd461018bd81d71092f7de269"
+    url "https://s3.amazonaws.com/phase2.outrigger/rig-2.0.0-rc2-macOS-amd64.tar.gz"
+    sha256 "5b9cf64d2390778b0091bc8df502cddda9194e4a14db8224958a9880384ca17b"
   end
 
   depends_on "docker"
