@@ -5,7 +5,12 @@ class OutriggerCli < Formula
   version "2.0.0"
   sha256 "747ac0512974c815d969be388b145b95a0a62bfcf19d234369f1173b1b54a0d4"
 
-  depends_on "docker"depends_on "docker-machine"depends_on "docker-compose"depends_on "docker-machine-nfs"depends_on "unison"depends_on "eugenmayer/dockersync/unox"
+  depends_on "docker"
+  depends_on "docker-machine"
+  depends_on "docker-compose"
+  depends_on "docker-machine-nfs"
+  depends_on "unison"
+  depends_on "eugenmayer/dockersync/unox"
 
   def install
     bin.install "rig"
