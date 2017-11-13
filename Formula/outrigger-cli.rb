@@ -3,8 +3,8 @@ class OutriggerCli < Formula
   homepage "https://outrigger.sh/"
   url "https://github.com/phase2/rig/releases/download/2.0.0/outrigger-cli-2.0.0-macOS-amd64.tar.gz"
   version "2.0.0"
-  sha256 "747ac0512974c815d969be388b145b95a0a62bfcf19d234369f1173b1b54a0d4"
-
+  sha256 "cb70e9b9356deaac7a9ccef1788a2984749e1e2f7ff1d9f230a68c017880cdc0"
+  
   depends_on "docker"
   depends_on "docker-machine"
   depends_on "docker-compose"
