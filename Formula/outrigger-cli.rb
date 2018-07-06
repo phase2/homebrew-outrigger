@@ -19,4 +19,10 @@ class OutriggerCli < Formula
   test do
     system "#{bin}/rig", "--version"
   end
+
+  devel do
+    version "2.2.0-rc3"
+    url "https://github.com/phase2/rig/releases/download/2.2.0-rc3/outrigger-cli-2.2.0-rc3-macOS-amd64.tar.gz"
+    sha256 "3862ef3332854979955c717bd3053549e8fdc0f983b8f2874ae968c8b9edd5fd"
+  end
 end
