@@ -10,7 +10,7 @@ class OutriggerCli < Formula
   depends_on "docker-compose"
   depends_on "docker-machine-nfs"
   depends_on "unison"
-  depends_on "d4rky-pl/dockersync/unox"
+  depends_on "phase2/dockersync/unox"
 
   def install
     bin.install "rig"
