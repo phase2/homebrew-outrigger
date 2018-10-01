@@ -1,9 +1,9 @@
 class OutriggerCli < Formula
   desc "Containerized development environment for projects. See https://docs.outrigger.sh for documentation."
   homepage "https://outrigger.sh/"
-  url "https://github.com/phase2/rig/releases/download/2.1.3/outrigger-cli-2.1.3-macOS-amd64.tar.gz"
-  version "2.1.3"
-  sha256 "b2b60f71effe9c03cc663c4bebaceaec998642ab55bfd404ff84e3ebdde04c2e"
+  url "https://github.com/phase2/rig/releases/download/2.2.1/outrigger-cli-2.2.1-macOS-amd64.tar.gz"
+  version "2.2.1"
+  sha256 "b4c7acd42ae09e5e8e0ab0d33068918dbe9d59a47417adf027496d51be744056"
   
   depends_on "docker"
   depends_on "docker-machine"
@@ -18,11 +18,5 @@ class OutriggerCli < Formula
 
   test do
     system "#{bin}/rig", "--version"
-  end
-
-  devel do
-    version "2.2.0-rc3"
-    url "https://github.com/phase2/rig/releases/download/2.2.0-rc3/outrigger-cli-2.2.0-rc3-macOS-amd64.tar.gz"
-    sha256 "3862ef3332854979955c717bd3053549e8fdc0f983b8f2874ae968c8b9edd5fd"
   end
 end
